@@ -6,18 +6,15 @@ import Typography from '@mui/material/Typography';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
-
-
+import { useNavigate } from 'react-router-dom';
 import { CardActionArea } from '@mui/material';
 
-
-
 export default function ActionAreaCard({data}) {
+  const navigate = useNavigate();
   return (
-    <Card sx={{ width:'100%', height:'100%' , backgroundColor: "#353535" }}>
+    <Card onClick={() => navigate(`data/${data.id}`)} sx={{ width:'100%', height:'100%' , backgroundColor: "#353535" }}>
       <CardActionArea>
         <CardMedia
-          
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">

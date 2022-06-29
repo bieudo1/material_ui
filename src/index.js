@@ -10,7 +10,6 @@ root.render(
   </React.StrictMode>
 );
 
-document.getElementsByClassName("MuiPagination-text").style.color='white !important';
 
 
 // If you want to start measuring performance in your app, pass a function

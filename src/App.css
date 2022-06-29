@@ -3,7 +3,8 @@
 *::before {
   box-sizing: border-box;
   
+  
 }
-.MuiPagination-text{
-  color: white !important;
+body{
+  margin: 0;
 }
